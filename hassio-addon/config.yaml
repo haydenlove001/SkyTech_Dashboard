@@ -1,8 +1,8 @@
-name: "Tunet"
-description: "A modern, responsive dashboard for Home Assistant"
+name: "SkyTech Dashboard"
+description: "Streamlined Dashboard for SkyTech installs (based on Tunet)"
 version: "1.6.2"
-slug: "tunet"
-url: "https://github.com/oyvhov/Tunet"
+slug: "skytech_dashboard"
+url: "https://github.com/haydenlove001/SkyTech_Dashboard/"
 init: false
 startup: application
 arch:
@@ -14,10 +14,10 @@ auth_api: true
 ingress: true
 ingress_port: 3002
 panel_icon: "mdi:view-dashboard-variant"
-panel_title: "Tunet"
+panel_title: "SkyTech"
 ports:
   3002/tcp: null
 ports_description:
-  3002/tcp: "Tunet Web Interface (not needed when using Ingress)"
+  3002/tcp: "Web UI (Ingress recommended)"
 options: {}
 schema: {}
